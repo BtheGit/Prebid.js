@@ -5,7 +5,9 @@
   "main": "src/prebid.js",
   "scripts": {
     "test": "gulp test",
-    "lint": "gulp lint"
+    "lint": "gulp lint",
+    "mp:build": "gulp build --modules=modules.json",
+    "mp:serve": "gulp serve --modules=modules.json"
   },
   "repository": {
     "type": "git",
